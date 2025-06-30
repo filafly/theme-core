@@ -1,0 +1,39 @@
+{
+  "name": "filafly/theme-core",
+  "description": "An extendable theme class accelerating development of Filament themes.",
+  "homepage": "https://github.com/filafly/theme-core",
+  "license": "proprietary",
+  "keywords": [
+    "Laravel",
+    "Filament",
+    "theme",
+    "template",
+    "extendable"
+  ],
+  "homepage": "https://filafly.com/",
+  "authors": [
+    {
+      "role": "Developer",
+      "name": "Nolan Nordlund",
+      "email": "nolan@filafly.com",
+      "homepage": "https://www.filafly.com/"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Filafly\\Themes\\Core\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "filament/filament": "^4.0"
+  },
+  "minimum-stability": "beta",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true
+  },
+  "require-dev": {
+    "laravel/pint": "^1.22"
+  }
+}
