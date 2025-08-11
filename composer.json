@@ -28,7 +28,7 @@
     "php": "^8.2",
     "filament/filament": "^4.0"
   },
-  "minimum-stability": "beta",
+  "minimum-stability": "stable",
   "prefer-stable": true,
   "config": {
     "sort-packages": true
